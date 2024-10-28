@@ -1,6 +1,9 @@
 #### Inspired from (https://github.com/imartinez/privateGPT) and (https://github.com/jmorganca/ollama)
 
 #### Step 1: Step a Virtual Environment
+``` 
+conda create -n evaline python=3.10
+```
 
 #### Step 2: Install the Requirements
 ```
@@ -10,7 +13,7 @@ pip install -r requirements.txt
 #### Step 3: Pull the models (if you already have models loaded in Ollama, then not required)
 #### Make sure to have Ollama running on your system from https://ollama.ai
 ```
-ollama pull mistral
+ollama pull llama3.2
 ```
 
 #### Step 4: put your files in the source_documents folder after making a directory
@@ -36,7 +39,7 @@ Ingestion complete! You can now run privateGPT.py to query your documents
 
 #### Step 6: Run this command (use python3 if on mac)
 ```
-python privateGPT.py
+python EvaLine.py
 ```
 
 ##### Play with your docs
