@@ -14,6 +14,7 @@ pip install -r requirements.txt
 #### Make sure to have Ollama running on your system from https://ollama.ai
 ```
 ollama pull llama3.2
+ollama pull nomic-embed-text
 ```
 
 #### Step 4: put your files in the source_documents folder after making a directory
